@@ -1,0 +1,31 @@
+﻿<Application  
+    x:Class="MyNotesApp.App"  
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+    RequestedTheme="Light">  
+
+    <Application.Resources>  
+        <!-- Light theme brushes -->  
+        <ResourceDictionary>  
+            <ResourceDictionary.MergedDictionaries>  
+                <ResourceDictionary>  
+                    <SolidColorBrush x:Key="BackgroundBrush" Color="White"/>  
+                    <SolidColorBrush x:Key="ForegroundBrush" Color="Black"/>  
+                    <SolidColorBrush x:Key="NoteBackgroundBrush" Color="#FFF9F9F9"/>  
+                    <SolidColorBrush x:Key="NoteBorderBrush" Color="#FFCCCCCC"/>  
+                    <SolidColorBrush x:Key="DeleteButtonBrush" Color="#FFB22222"/>  
+                    <SolidColorBrush x:Key="DateTextBrush" Color="#FF666666"/>  
+                </ResourceDictionary>  
+                <ResourceDictionary>  
+                    <SolidColorBrush x:Key="BackgroundBrush" Color="#FF1E1E1E"/>  
+                    <SolidColorBrush x:Key="ForegroundBrush" Color="White"/>  
+                    <SolidColorBrush x:Key="NoteBackgroundBrush" Color="#FF2D2D2D"/>  
+                    <SolidColorBrush x:Key="NoteBorderBrush" Color="#FF444444"/>  
+                    <SolidColorBrush x:Key="DeleteButtonBrush" Color="#FFFF6666"/>  
+                    <SolidColorBrush x:Key="DateTextBrush" Color="#FFAAAAAA"/>  
+                </ResourceDictionary>  
+            </ResourceDictionary.MergedDictionaries>  
+        </ResourceDictionary>  
+    </Application.Resources>  
+
+</Application>
